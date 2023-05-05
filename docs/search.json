@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Topological Data Analysis with R",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "mapper.html",
+    "href": "mapper.html",
+    "title": "2  Mapper",
+    "section": "",
+    "text": "The Mapper algorithm…\n\nlibrary(tidymodels)\n\n── Attaching packages ────────────────────────────────────── tidymodels 1.1.0 ──\n\n\n✔ broom        1.0.4     ✔ recipes      1.0.6\n✔ dials        1.2.0     ✔ rsample      1.1.1\n✔ dplyr        1.1.2     ✔ tibble       3.2.1\n✔ ggplot2      3.4.2     ✔ tidyr        1.3.0\n✔ infer        1.0.4     ✔ tune         1.1.1\n✔ modeldata    1.1.0     ✔ workflows    1.1.3\n✔ parsnip      1.1.0     ✔ workflowsets 1.0.1\n✔ purrr        1.0.1     ✔ yardstick    1.2.0\n\n\n── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──\n✖ purrr::discard() masks scales::discard()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\n✖ recipes::step()  masks stats::step()\n• Search for functions across packages at https://www.tidymodels.org/find/\n\n\n\nreceita = recipe(Species ~ ., data = iris)\n\n\nDecidir como pegar só as variáveis numéricas ou transformar em dummy\nNormalizar numéricos!!\nGuardar as factor de output (só dummyzar as preditores)"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]
