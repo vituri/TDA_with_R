@@ -1,0 +1,20 @@
+# Mapper
+
+The Mapper algorithm...
+
+```{r}
+library(tidymodels)
+```
+
+```{r}
+
+receita = recipe(Species ~ ., data = iris)
+
+```
+
+
+- Decidir como pegar só as variáveis numéricas ou transformar em dummy
+
+- Normalizar numéricos!!
+
+- Guardar as factor de output (só dummyzar as preditores)

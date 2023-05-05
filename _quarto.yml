@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Topological Data Analysis with R"
+#  subtitle: "Exploring the geometry of data"
+  author: "G. Vituri"
+  date: "19/04/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - mapper.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
